@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TitleView">
+        <attr name="tv_left_img_src" format="reference" />
+        <attr name="tv_left_img_visibility" format="enum">
+            <enum name="visibly" value="0" />
+            <enum name="gone" value="1" />
+        </attr>
+
+        <attr name="tv_center_textSize" format="dimension" />
+        <attr name="tv_center_text" format="string" />
+
+        <attr name="tv_right_textSize" format="dimension" />
+        <attr name="tv_right_text" format="string" />
+    </declare-styleable>
+</resources>
